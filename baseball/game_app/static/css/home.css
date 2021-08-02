@@ -1,0 +1,62 @@
+/* RESPONSIVE DESIGN */
+@media all and (max-width:900px) {
+    .search_container {
+        width: 80% !important;
+        margin-left: 10% !important;
+        width: 80% !important;
+    }
+
+    .flex-form {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flex-form > * {
+        font-size: 0.9rem;
+    }
+
+    input[type="submit"] {
+        border-radius: 0px 0px 6px 6px !important;
+    }
+
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/homepage_bg.jpg");
+        background-size: cover;
+    }
+    .box {
+
+        width:200px;
+        
+        height:200px;
+        
+        background-color: rgb(226, 43, 104);
+        
+        border-radius: 20px;
+        
+        }
+    h1 {
+            font-family: 'Oswald', sans-serif;
+            color: #ffffff;
+            text-align:center;
+            font-size: 36px;
+          }
+    h2 {
+            font-family: 'Oswald', sans-serif;
+            color: #ffffff;
+            text-align:center;
+            font-size: 16px;
+        }
+    h3 {
+            font-family: 'Oswald', sans-serif;
+            color: #ffffff;
+            text-align:center;
+            font-size: 12px; 
+        }
+  
+    button {
+        background-color: blue;
+        
+    }   
+}   
